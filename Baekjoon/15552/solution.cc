@@ -4,7 +4,7 @@
   std::ios_base::sync_with_stdio(false); \
   std::cin.tie(NULL);                    \
   std::cout.tie(NULL)
-#define int8 cha
+#define int8 char
 #define int16 short
 #define int32 int
 #define int64 long long

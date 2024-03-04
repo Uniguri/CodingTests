@@ -17,6 +17,22 @@ using namespace std;
 int main() {
   FAST_IO();
 
+  int N, v;
+  int ds[100];
+  cin >> N;
+  for (int i = 0; i < N; ++i) {
+    cin >> ds[i];
+  }
+  cin >> v;
+
+  int ans = 0;
+  while (N--) {
+    if (ds[N] == v) {
+      ++ans;
+    }
+  }
+  cout << ans;
+
   return 0;
 }
 

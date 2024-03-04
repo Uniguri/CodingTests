@@ -17,6 +17,28 @@ using namespace std;
 int main() {
   FAST_IO();
 
+  int n, x;
+  int a[100'000];
+  int nc[2'000'000];
+  cin >> n;
+  for (int i = 0; i < n; ++i) {
+    cin >> a[i];
+  }
+  cin >> x;
+
+  uint64 ans = 0;
+  for (int i = 0; i < n; ++i) {
+    const int n = a[i];
+    const int nd = x - n;
+    if (nd > 0 && nc[nd]) {
+      ++ans;
+      --nc[nd];
+    } else {
+      ++nc[n];
+    }
+  }
+  cout << ans;
+
   return 0;
 }
 

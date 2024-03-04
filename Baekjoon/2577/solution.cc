@@ -17,6 +17,25 @@ using namespace std;
 int main() {
   FAST_IO();
 
+  uint32 A, B, C;
+  cin >> A >> B >> C;
+
+  uint64 ABC = A * B * C;
+  char d[10] = {
+      0,
+  };
+
+  while (ABC) {
+    uint8 r = ABC % 10;
+    ABC /= 10;
+
+    ++d[r];
+  }
+
+  for (int i = 0; i < sizeof(d); ++i) {
+    cout << (uint32)d[i] << '\n';
+  }
+
   return 0;
 }
 

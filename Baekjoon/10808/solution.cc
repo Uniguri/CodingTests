@@ -17,6 +17,20 @@ using namespace std;
 int main() {
   FAST_IO();
 
+  char s[101];
+  uint8 c['z' - 'a' + 1] = {
+      0,
+  };
+  cin >> s;
+
+  for (char* p = s; *p; ++p) {
+    ++c[*p - 'a'];
+  }
+
+  for (int i = 0; i < sizeof(c); ++i) {
+    cout << (uint32)c[i] << ' ';
+  }
+
   return 0;
 }
 
