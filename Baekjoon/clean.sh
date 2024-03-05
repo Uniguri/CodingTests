@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find ./ -type f -executable -delete
+find ./ -name "solution*" -type f -executable -delete
