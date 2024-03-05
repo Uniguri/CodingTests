@@ -6,6 +6,9 @@
 !.vscode/*.code-snippets
 */.vscode
 
+Baekjoon/*/solution*
+!Baekjoon/*/solution*.cc
+
 # Local History for Visual Studio Code
 .history/
 
