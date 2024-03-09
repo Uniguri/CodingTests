@@ -12,3 +12,4 @@ prob_num=$1
 echo "Make $prob_num"
 mkdir $prob_num
 cp ./solution.cc $prob_num
+cp ./testcase.json $prob_num

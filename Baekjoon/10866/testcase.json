@@ -1,0 +1,56 @@
+{
+  "timeout": 0.5,
+  "testcases": [
+    {
+      "inputs": [
+        "4",
+        "push_front 2",
+        "push_front 1",
+        "pop_front",
+        "pop_front"
+      ],
+      "outputs": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "inputs": [
+        "8",
+        "push_front 2",
+        "push_front 1",
+        "push_back 3",
+        "push_back 4",
+        "pop_front",
+        "pop_front",
+        "pop_front",
+        "pop_front"
+      ],
+      "outputs": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "inputs": [
+        "8",
+        "push_front 2",
+        "push_front 1",
+        "push_back 3",
+        "push_back 4",
+        "pop_back",
+        "pop_back",
+        "pop_back",
+        "pop_back"
+      ],
+      "outputs": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ]
+    }
+  ]
+}
