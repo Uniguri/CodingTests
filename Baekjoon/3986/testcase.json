@@ -1,0 +1,36 @@
+{
+  "timeout": 1,
+  "testcases": [
+    {
+      "inputs": [
+        "3",
+        "ABAB",
+        "AABB",
+        "ABBA"
+      ],
+      "outputs": [
+        "2"
+      ]
+    },
+    {
+      "inputs": [
+        "3",
+        "AAA",
+        "AA",
+        "AB"
+      ],
+      "outputs": [
+        "1"
+      ]
+    },
+    {
+      "inputs": [
+        "1",
+        "ABBABB"
+      ],
+      "outputs": [
+        "1"
+      ]
+    }
+  ]
+}
