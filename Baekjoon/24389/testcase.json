@@ -1,0 +1,13 @@
+{
+  "timeout": 1,
+  "testcases": [
+    {
+      "inputs": [
+        "2"
+      ],
+      "outputs": [
+        "30"
+      ]
+    }
+  ]
+}
