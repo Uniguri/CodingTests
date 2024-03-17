@@ -1,0 +1,18 @@
+{
+  "timeout": 1,
+  "testcases": [
+    {
+      "inputs": [
+        "5",
+        "RRRBB",
+        "GGBBB",
+        "BBBRR",
+        "BBRRR",
+        "RRRRR"
+      ],
+      "outputs": [
+        "4 3"
+      ]
+    }
+  ]
+}
